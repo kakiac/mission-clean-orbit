@@ -1,0 +1,10 @@
+[
+  { "id": "SAT-001", "name": "Aurora-1", "orbit": "LEO", "status": "active", "country": "UK" },
+  { "id": "SAT-002", "name": "Meridian-4", "orbit": "LEO", "status": "inactive", "country": "France" },
+  { "id": "SAT-003", "name": "TerraWatch", "orbit": "MEO", "status": "active", "country": "Germany" },
+  { "id": "SAT-004", "name": "OceanScan", "orbit": "GEO", "status": "active", "country": "UK" },
+  { "id": "SAT-005", "name": "OrbitLink-A", "orbit": "LEO", "status": "inactive", "country": "USA" },
+  { "id": "SAT-006", "name": "PolarEye", "orbit": "MEO", "status": "active", "country": "Canada" },
+  { "id": "SAT-007", "name": "GaiaRoute", "orbit": "GEO", "status": "inactive", "country": "Japan" },
+  { "id": "SAT-008", "name": "SignalBridge", "orbit": "LEO", "status": "active", "country": "UK" }
+]

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mission Clean Orbit Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Mission Clean Orbit</h1>
+    <p class="tagline">A collaborative student dashboard on orbital sustainability</p>
+  </header>
+
+  <main class="container">
+    <section class="panel" aria-labelledby="controls-title">
+      <h2 id="controls-title">Dashboard controls</h2>
+      <div class="controls-grid">
+        <label for="orbitFilter">Orbit type</label>
+        <select id="orbitFilter">
+          <option value="all">All</option>
+          <option value="LEO">Low Earth Orbit (LEO)</option>
+          <option value="MEO">Medium Earth Orbit (MEO)</option>
+          <option value="GEO">Geostationary Orbit (GEO)</option>
+        </select>
+
+        <label for="statusFilter">Object status</label>
+        <select id="statusFilter">
+          <option value="all">All</option>
+          <option value="active">Active</option>
+          <option value="inactive">Inactive</option>
+        </select>
+
+        <button id="refreshBtn" type="button">Refresh calculations</button>
+      </div>
+      <p class="note">Starter version includes baseline controls. Teams can extend these during the workshop.</p>
+    </section>
+
+    <section class="panel" aria-labelledby="kpi-title">
+      <h2 id="kpi-title">Core indicators</h2>
+      <div id="kpiCards" class="kpi-grid">
+        <!-- Team 2 builds KPI rendering -->
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="visual-title">
+      <h2 id="visual-title">Visual summary</h2>
+      <div id="visualSummary" class="visual-summary">
+        <!-- Team 3 builds visual components -->
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="insights-title">
+      <h2 id="insights-title">Insights and recommendations</h2>
+      <ul id="insightsList" class="insights-list">
+        <!-- Team 4 builds insight statements -->
+      </ul>
+    </section>
+
+    <section class="panel" aria-labelledby="qa-title">
+      <h2 id="qa-title">Agile check-ins and QA</h2>
+      <div id="qaLog" class="qa-log">
+        <p>Team 5 will maintain check-in notes and testing outcomes here during integration.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Built by student teams during Mission Clean Orbit workshop.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

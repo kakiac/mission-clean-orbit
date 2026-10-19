@@ -1,0 +1,8 @@
+[
+  { "band": "LEO", "estimatedObjects": 1210, "year": 2023 },
+  { "band": "MEO", "estimatedObjects": 320, "year": 2023 },
+  { "band": "GEO", "estimatedObjects": 190, "year": 2023 },
+  { "band": "LEO", "estimatedObjects": 1265, "year": 2024 },
+  { "band": "MEO", "estimatedObjects": 335, "year": 2024 },
+  { "band": "GEO", "estimatedObjects": 205, "year": 2024 }
+]
